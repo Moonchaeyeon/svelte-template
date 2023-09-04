@@ -15,7 +15,11 @@
   </footer>
 </div>
 
-<style>
+<style lang="postcss">
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
   .app {
     display: flex;
     flex-direction: column;
