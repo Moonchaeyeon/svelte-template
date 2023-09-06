@@ -1,12 +1,10 @@
 module.exports = {
-  // files: ["*.svelte"],
-  plugins: [
-    '@typescript-eslint',
-  ],
+  plugins: ["@typescript-eslint"],
   extends: [
     "plugin:svelte/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:svelte/prettier",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -28,4 +26,4 @@ module.exports = {
       },
     },
   ],
-}
+};
